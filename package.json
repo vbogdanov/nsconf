@@ -1,6 +1,6 @@
 {
   "name": "nsconf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple config container allowing setting values for \"namespaces\" - dot separated property names. E.g set('foo.bar.baz', {}) will make { foo: { bar: { baz: {} } } }",
   "main": "src/nsconf.js",
   "scripts": {
