@@ -1,0 +1,23 @@
+{
+  "name": "nsconf",
+  "version": "0.0.0",
+  "description": "A simple config container allowing setting values for \"namespaces\" - dot separated property names. E.g set('foo.bar.baz', {}) will make { foo: { bar: { baz: {} } } }",
+  "main": "src/nsconf.js",
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "keywords": [
+    "namespace",
+    "config",
+    "configuration",
+    "conf"
+  ],
+  "author": "Valeri Bogdanov",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "~1.11.0"
+  },
+  "dependencies": {
+    "extend": "~1.2.1"
+  }
+}
